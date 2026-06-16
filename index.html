@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WealthGrow Academy – Platform edukasi keuangan dan investasi. Pelajari cara mengelola keuangan dan membangun kebiasaan finansial yang lebih cerdas." />
+  <title>WealthGrow Academy | Edukasi Keuangan & Investasi</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css" />
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header id="main-header" class="header">
+    <div class="container header__inner">
+      <!-- Logo -->
+      <a href="#beranda" class="logo" aria-label="WealthGrow Academy">
+        <span class="logo__icon"><i class="fa-solid fa-seedling"></i></span>
+        <span class="logo__text">WealthGrow <span class="logo__accent">Academy</span></span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav" aria-label="Navigasi utama">
+        <ul class="nav__list">
+          <li><a href="#beranda" class="nav__link">Beranda</a></li>
+          <li><a href="#program" class="nav__link">Program</a></li>
+          <li><a href="#tentang" class="nav__link">Tentang</a></li>
+          <li><a href="#testimoni" class="nav__link">Testimoni</a></li>
+          <li><a href="#faq" class="nav__link">FAQ</a></li>
+          <li><a href="#kontak" class="nav__link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA Button -->
+      <a href="#kontak" class="btn btn--gold btn--sm header__cta">
+        <i class="fa-brands fa-whatsapp"></i> Konsultasi Gratis
+      </a>
+
+      <!-- Hamburger -->
+      <button class="hamburger" id="hamburger-btn" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <ul class="mobile-nav__list">
+        <li><a href="#beranda" class="mobile-nav__link">Beranda</a></li>
+        <li><a href="#program" class="mobile-nav__link">Program</a></li>
+        <li><a href="#tentang" class="mobile-nav__link">Tentang</a></li>
+        <li><a href="#testimoni" class="mobile-nav__link">Testimoni</a></li>
+        <li><a href="#faq" class="mobile-nav__link">FAQ</a></li>
+        <li><a href="#kontak" class="mobile-nav__link">Kontak</a></li>
+        <li>
+          <a href="#kontak" class="btn btn--gold btn--full mobile-nav__cta">
+            <i class="fa-brands fa-whatsapp"></i> Konsultasi Gratis
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section id="beranda" class="hero">
+      <!-- Decorative background -->
+      <div class="hero__bg-shape hero__bg-shape--1"></div>
+      <div class="hero__bg-shape hero__bg-shape--2"></div>
+
+      <div class="container hero__inner">
+        <!-- Text -->
+        <div class="hero__content" data-animate="fade-up">
+          <span class="badge badge--gold">
+            <i class="fa-solid fa-star"></i> Platform Edukasi Keuangan Terpercaya
+          </span>
+          <h1 class="hero__title">
+            Bangun Kebiasaan Finansial yang Lebih <span class="text-gold">Cerdas</span>
+          </h1>
+          <p class="hero__subtitle">
+            Pelajari cara mengelola keuangan, memahami investasi, dan membangun keputusan finansial yang lebih terencana melalui pendekatan edukatif yang mudah dipahami.
+          </p>
+          <div class="hero__actions">
+            <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20gratis%20dengan%20WealthGrow%20Academy" target="_blank" rel="noopener" class="btn btn--gold btn--lg whatsapp-btn">
+              <i class="fa-brands fa-whatsapp"></i> Konsultasi via WhatsApp
+            </a>
+            <a href="#program" class="btn btn--outline btn--lg">
+              Lihat Program <i class="fa-solid fa-arrow-down"></i>
+            </a>
+          </div>
+          <!-- Trust Badges -->
+          <div class="hero__trust">
+            <span class="trust-item"><i class="fa-solid fa-shield-halved"></i> 100% Edukatif</span>
+            <span class="trust-item"><i class="fa-solid fa-lock"></i> Data Aman</span>
+            <span class="trust-item"><i class="fa-solid fa-certificate"></i> Materi Terstruktur</span>
+          </div>
+        </div>
+
+        <!-- Illustration -->
+        <div class="hero__illustration" data-animate="fade-left">
+          <div class="hero__card-float hero__card-float--1">
+            <div class="float-card">
+              <i class="fa-solid fa-chart-line float-card__icon"></i>
+              <div>
+                <div class="float-card__label">Literasi Finansial</div>
+                <div class="float-card__value text-gold">Meningkat</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero__card-float hero__card-float--2">
+            <div class="float-card">
+              <i class="fa-solid fa-users float-card__icon"></i>
+              <div>
+                <div class="float-card__label">Peserta Aktif</div>
+                <div class="float-card__value text-gold">5.000+</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero__visual">
+            <div class="hero__chart-wrap">
+              <!-- SVG Illustration: Growth Chart -->
+              <svg viewBox="0 0 380 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Ilustrasi grafik pertumbuhan finansial">
+                <!-- Background glow -->
+                <ellipse cx="190" cy="260" rx="140" ry="24" fill="#1A4731" opacity="0.18"/>
+                <!-- Grid lines -->
+                <line x1="40" y1="240" x2="360" y2="240" stroke="#2D6A4F" stroke-width="1" stroke-dasharray="4 4"/>
+                <line x1="40" y1="190" x2="360" y2="190" stroke="#2D6A4F" stroke-width="1" stroke-dasharray="4 4"/>
+                <line x1="40" y1="140" x2="360" y2="140" stroke="#2D6A4F" stroke-width="1" stroke-dasharray="4 4"/>
+                <line x1="40" y1="90" x2="360" y2="90" stroke="#2D6A4F" stroke-width="1" stroke-dasharray="4 4"/>
+                <!-- Area fill -->
+                <path d="M40 230 C80 220 110 210 150 185 C190 160 220 130 260 100 C290 78 320 62 360 50 L360 240 L40 240 Z" fill="url(#heroGradient)" opacity="0.35"/>
+                <!-- Line -->
+                <path d="M40 230 C80 220 110 210 150 185 C190 160 220 130 260 100 C290 78 320 62 360 50" stroke="url(#lineGradient)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <!-- Dots -->
+                <circle cx="40" cy="230" r="5" fill="#D4AF37"/>
+                <circle cx="150" cy="185" r="5" fill="#D4AF37"/>
+                <circle cx="260" cy="100" r="5" fill="#D4AF37"/>
+                <circle cx="360" cy="50" r="8" fill="#D4AF37"/>
+                <circle cx="360" cy="50" r="14" fill="#D4AF37" opacity="0.25"/>
+                <!-- Coin stacks -->
+                <ellipse cx="80" cy="245" rx="18" ry="6" fill="#2D6A4F"/>
+                <rect x="62" y="228" width="36" height="17" rx="3" fill="#2D6A4F"/>
+                <ellipse cx="80" cy="228" rx="18" ry="6" fill="#40916C"/>
+                <ellipse cx="80" cy="222" rx="18" ry="6" fill="#52B788"/>
+                <ellipse cx="130" cy="245" rx="14" ry="5" fill="#2D6A4F"/>
+                <rect x="116" y="231" width="28" height="14" rx="3" fill="#2D6A4F"/>
+                <ellipse cx="130" cy="231" rx="14" ry="5" fill="#40916C"/>
+                <ellipse cx="130" cy="226" rx="14" ry="5" fill="#52B788"/>
+                <!-- Plant growth -->
+                <line x1="300" y1="240" x2="300" y2="180" stroke="#40916C" stroke-width="3" stroke-linecap="round"/>
+                <path d="M300 210 C310 195 328 200 325 215" stroke="#52B788" stroke-width="2.5" fill="none"/>
+                <path d="M300 195 C288 182 272 188 276 202" stroke="#52B788" stroke-width="2.5" fill="none"/>
+                <ellipse cx="300" cy="177" rx="8" ry="10" fill="#74C69D"/>
+                <!-- Defs -->
+                <defs>
+                  <linearGradient id="heroGradient" x1="40" y1="50" x2="40" y2="240" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#D4AF37"/>
+                    <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+                  </linearGradient>
+                  <linearGradient id="lineGradient" x1="40" y1="230" x2="360" y2="50" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#52B788"/>
+                    <stop offset="100%" stop-color="#D4AF37"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== STATISTIK ========== -->
+    <section class="stats" aria-label="Statistik WealthGrow Academy">
+      <div class="container">
+        <div class="stats__grid">
+          <div class="stat-card" data-animate="fade-up">
+            <div class="stat-card__icon"><i class="fa-solid fa-users"></i></div>
+            <div class="stat-card__number counter" data-target="5000">0</div>
+            <div class="stat-card__suffix">+</div>
+            <div class="stat-card__label">Peserta Belajar</div>
+          </div>
+          <div class="stat-card" data-animate="fade-up" data-delay="100">
+            <div class="stat-card__icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <div class="stat-card__number counter" data-target="100">0</div>
+            <div class="stat-card__suffix">+</div>
+            <div class="stat-card__label">Sesi Edukasi</div>
+          </div>
+          <div class="stat-card" data-animate="fade-up" data-delay="200">
+            <div class="stat-card__icon"><i class="fa-solid fa-people-group"></i></div>
+            <div class="stat-card__number">Aktif</div>
+            <div class="stat-card__suffix"></div>
+            <div class="stat-card__label">Komunitas</div>
+          </div>
+          <div class="stat-card" data-animate="fade-up" data-delay="300">
+            <div class="stat-card__icon"><i class="fa-solid fa-book-open"></i></div>
+            <div class="stat-card__number">Terstruktur</div>
+            <div class="stat-card__suffix"></div>
+            <div class="stat-card__label">Materi Kurikulum</div>
+          </div>
+        </div>
+        <p class="stats__disclaimer">
+          <i class="fa-solid fa-circle-info"></i>
+          Angka di atas merupakan ilustrasi demonstrasi dan bukan jaminan hasil finansial tertentu.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== PROGRAM EDUKASI ========== -->
+    <section id="program" class="programs section">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <span class="badge badge--green">Program Kami</span>
+          <h2 class="section-title">Program <span class="text-gold">Edukasi</span> Finansial</h2>
+          <p class="section-subtitle">Kurikulum terstruktur yang dirancang untuk membantu Anda memahami keuangan dari dasar hingga perencanaan jangka panjang.</p>
+        </div>
+
+        <div class="programs__grid">
+          <!-- Card 1 -->
+          <article class="program-card" data-animate="fade-up">
+            <div class="program-card__icon-wrap program-card__icon-wrap--1">
+              <i class="fa-solid fa-wallet"></i>
+            </div>
+            <div class="program-card__tag">Dasar</div>
+            <h3 class="program-card__title">Dasar Pengelolaan Keuangan</h3>
+            <p class="program-card__desc">Memahami arus kas, menyusun anggaran, dan membangun fondasi perencanaan keuangan yang sehat.</p>
+            <ul class="program-card__features">
+              <li><i class="fa-solid fa-check"></i> Analisis arus kas pribadi</li>
+              <li><i class="fa-solid fa-check"></i> Manajemen pengeluaran</li>
+              <li><i class="fa-solid fa-check"></i> Dasar penganggaran</li>
+            </ul>
+            <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20tahu%20lebih%20lanjut%20tentang%20Program%20Dasar%20Pengelolaan%20Keuangan" target="_blank" rel="noopener" class="btn btn--ghost btn--sm whatsapp-btn">
+              Pelajari Lebih <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="program-card program-card--featured" data-animate="fade-up" data-delay="100">
+            <div class="program-card__popular">Populer</div>
+            <div class="program-card__icon-wrap program-card__icon-wrap--2">
+              <i class="fa-solid fa-chart-pie"></i>
+            </div>
+            <div class="program-card__tag">Investasi</div>
+            <h3 class="program-card__title">Dasar Investasi</h3>
+            <p class="program-card__desc">Mengenal berbagai instrumen investasi, memahami profil risiko, dan cara membaca informasi pasar secara edukatif.</p>
+            <ul class="program-card__features">
+              <li><i class="fa-solid fa-check"></i> Mengenal instrumen investasi</li>
+              <li><i class="fa-solid fa-check"></i> Memahami profil risiko</li>
+              <li><i class="fa-solid fa-check"></i> Literasi pasar modal</li>
+            </ul>
+            <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20tahu%20lebih%20lanjut%20tentang%20Program%20Dasar%20Investasi" target="_blank" rel="noopener" class="btn btn--gold btn--sm whatsapp-btn">
+              Pelajari Lebih <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="program-card" data-animate="fade-up" data-delay="200">
+            <div class="program-card__icon-wrap program-card__icon-wrap--3">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <div class="program-card__tag">Perencanaan</div>
+            <h3 class="program-card__title">Financial Planning</h3>
+            <p class="program-card__desc">Menyusun tujuan keuangan jangka panjang, memahami pentingnya dana darurat, dan merencanakan masa depan secara terstruktur.</p>
+            <ul class="program-card__features">
+              <li><i class="fa-solid fa-check"></i> Penetapan tujuan finansial</li>
+              <li><i class="fa-solid fa-check"></i> Perencanaan dana darurat</li>
+              <li><i class="fa-solid fa-check"></i> Strategi keuangan jangka panjang</li>
+            </ul>
+            <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20tahu%20lebih%20lanjut%20tentang%20Program%20Financial%20Planning" target="_blank" rel="noopener" class="btn btn--ghost btn--sm whatsapp-btn">
+              Pelajari Lebih <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="program-card" data-animate="fade-up" data-delay="300">
+            <div class="program-card__icon-wrap program-card__icon-wrap--4">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div class="program-card__tag">Mindset</div>
+            <h3 class="program-card__title">Mindset Finansial</h3>
+            <p class="program-card__desc">Membangun kebiasaan finansial yang sehat, mengenali pola pikir tentang uang, dan mengembangkan disiplin keuangan jangka panjang.</p>
+            <ul class="program-card__features">
+              <li><i class="fa-solid fa-check"></i> Psikologi keuangan</li>
+              <li><i class="fa-solid fa-check"></i> Kebiasaan finansial positif</li>
+              <li><i class="fa-solid fa-check"></i> Disiplin pengelolaan aset</li>
+            </ul>
+            <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20tahu%20lebih%20lanjut%20tentang%20Program%20Mindset%20Finansial" target="_blank" rel="noopener" class="btn btn--ghost btn--sm whatsapp-btn">
+              Pelajari Lebih <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="program-card" data-animate="fade-up" data-delay="400">
+            <div class="program-card__icon-wrap program-card__icon-wrap--5">
+              <i class="fa-solid fa-magnifying-glass-chart"></i>
+            </div>
+            <div class="program-card__tag">Evaluasi</div>
+            <h3 class="program-card__title">Evaluasi Keuangan</h3>
+            <p class="program-card__desc">Belajar mengevaluasi keputusan finansial secara berkala, membaca laporan keuangan sederhana, dan melakukan koreksi rencana.</p>
+            <ul class="program-card__features">
+              <li><i class="fa-solid fa-check"></i> Review bulanan keuangan</li>
+              <li><i class="fa-solid fa-check"></i> Analisis keputusan finansial</li>
+              <li><i class="fa-solid fa-check"></i> Teknik koreksi rencana</li>
+            </ul>
+            <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20tahu%20lebih%20lanjut%20tentang%20Program%20Evaluasi%20Keuangan" target="_blank" rel="noopener" class="btn btn--ghost btn--sm whatsapp-btn">
+              Pelajari Lebih <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TENTANG / MENGAPA KAMI ========== -->
+    <section id="tentang" class="about section">
+      <div class="container">
+        <div class="about__inner">
+          <!-- Left Illustration -->
+          <div class="about__visual" data-animate="fade-right">
+            <div class="about__visual-card">
+              <svg viewBox="0 0 320 340" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Ilustrasi tim edukasi keuangan">
+                <!-- Background -->
+                <rect width="320" height="340" rx="24" fill="#1A3A2A"/>
+                <!-- Decorative circles -->
+                <circle cx="280" cy="50" r="40" fill="#2D6A4F" opacity="0.4"/>
+                <circle cx="40" cy="290" r="30" fill="#D4AF37" opacity="0.15"/>
+                <!-- Whiteboard / Screen -->
+                <rect x="40" y="50" width="240" height="150" rx="12" fill="#234D36"/>
+                <rect x="52" y="62" width="216" height="126" rx="8" fill="#1A3D2A"/>
+                <!-- Chart on screen -->
+                <rect x="70" y="130" width="20" height="40" rx="3" fill="#52B788"/>
+                <rect x="100" y="110" width="20" height="60" rx="3" fill="#74C69D"/>
+                <rect x="130" y="90" width="20" height="80" rx="3" fill="#40916C"/>
+                <rect x="160" y="70" width="20" height="100" rx="3" fill="#52B788"/>
+                <rect x="190" y="85" width="20" height="85" rx="3" fill="#D4AF37"/>
+                <rect x="220" y="60" width="20" height="110" rx="3" fill="#E9C46A"/>
+                <!-- Trend line -->
+                <path d="M70 145 L110 125 L140 105 L170 85 L200 98 L230 72" stroke="#D4AF37" stroke-width="2.5" stroke-dasharray="5 3" stroke-linecap="round"/>
+                <!-- Stand -->
+                <rect x="148" y="200" width="24" height="20" rx="4" fill="#234D36"/>
+                <rect x="110" y="218" width="100" height="10" rx="5" fill="#2D6A4F"/>
+                <!-- People illustrations -->
+                <!-- Person 1 -->
+                <circle cx="90" cy="268" r="18" fill="#40916C"/>
+                <circle cx="90" cy="256" r="10" fill="#E8C9A0"/>
+                <path d="M72 290 Q90 278 108 290" fill="#2D6A4F"/>
+                <!-- Person 2 -->
+                <circle cx="160" cy="268" r="18" fill="#52B788"/>
+                <circle cx="160" cy="256" r="10" fill="#D4A574"/>
+                <path d="M142 290 Q160 278 178 290" fill="#40916C"/>
+                <!-- Person 3 -->
+                <circle cx="230" cy="268" r="18" fill="#D4AF37"/>
+                <circle cx="230" cy="256" r="10" fill="#C9956A"/>
+                <path d="M212 290 Q230 278 248 290" fill="#C09020"/>
+                <!-- Gold stars -->
+                <text x="60" y="316" fill="#D4AF37" font-size="14">★★★★★</text>
+                <text x="195" y="316" fill="#52B788" font-size="11" font-family="sans-serif">Komunitas Aktif</text>
+                <!-- Top badge -->
+                <rect x="60" y="28" width="130" height="22" rx="11" fill="#D4AF37"/>
+                <text x="125" y="43" fill="#1A3A2A" font-size="11" font-weight="700" text-anchor="middle" font-family="sans-serif">WealthGrow Academy</text>
+              </svg>
+              <!-- Floating badge -->
+              <div class="about__badge">
+                <i class="fa-solid fa-award"></i>
+                <span>Edukasi Finansial Terpercaya</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Content -->
+          <div class="about__content" data-animate="fade-left">
+            <span class="badge badge--green">Mengapa Kami</span>
+            <h2 class="section-title">Kenapa Memilih <span class="text-gold">WealthGrow Academy?</span></h2>
+            <p class="about__desc">
+              Kami hadir untuk membantu Anda memahami keuangan secara lebih mendalam dengan pendekatan yang realistis, edukatif, dan mudah dipraktikkan dalam kehidupan sehari-hari.
+            </p>
+            <div class="about__features">
+              <div class="feature-item">
+                <div class="feature-item__icon"><i class="fa-solid fa-book-open-reader"></i></div>
+                <div>
+                  <h4 class="feature-item__title">Materi Mudah Dipahami</h4>
+                  <p class="feature-item__desc">Kurikulum disusun secara bertahap dari konsep dasar hingga implementasi nyata, cocok untuk semua level pemahaman.</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-item__icon"><i class="fa-solid fa-compass"></i></div>
+                <div>
+                  <h4 class="feature-item__title">Pendekatan Realistis</h4>
+                  <p class="feature-item__desc">Fokus pada pemahaman nyata, bukan janji-janji yang tidak masuk akal. Kami percaya literasi adalah kunci keputusan finansial yang baik.</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-item__icon"><i class="fa-solid fa-people-group"></i></div>
+                <div>
+                  <h4 class="feature-item__title">Komunitas Suportif</h4>
+                  <p class="feature-item__desc">Bergabunglah dengan komunitas yang saling mendukung dalam perjalanan belajar keuangan bersama-sama.</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-item__icon"><i class="fa-solid fa-user-tie"></i></div>
+                <div>
+                  <h4 class="feature-item__title">Mentor Berpengalaman</h4>
+                  <p class="feature-item__desc">Dibimbing oleh mentor yang berpengalaman di bidang edukasi keuangan dan perencanaan finansial.</p>
+                </div>
+              </div>
+            </div>
+            <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20bergabung%20dengan%20WealthGrow%20Academy" target="_blank" rel="noopener" class="btn btn--gold btn--lg whatsapp-btn">
+              <i class="fa-brands fa-whatsapp"></i> Mulai Perjalanan Finansial Anda
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROSES / HOW IT WORKS ========== -->
+    <section class="process section section--alt">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <span class="badge badge--gold">Cara Kerja</span>
+          <h2 class="section-title">Mulai dalam <span class="text-gold">3 Langkah</span> Mudah</h2>
+          <p class="section-subtitle">Bergabung dengan WealthGrow Academy sangat mudah dan cepat.</p>
+        </div>
+        <div class="process__steps">
+          <div class="process-step" data-animate="fade-up">
+            <div class="process-step__number">01</div>
+            <div class="process-step__icon"><i class="fa-brands fa-whatsapp"></i></div>
+            <h3 class="process-step__title">Hubungi Kami</h3>
+            <p class="process-step__desc">Klik tombol WhatsApp dan mulai percakapan dengan tim kami untuk konsultasi gratis.</p>
+          </div>
+          <div class="process-step__arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          <div class="process-step" data-animate="fade-up" data-delay="150">
+            <div class="process-step__number">02</div>
+            <div class="process-step__icon"><i class="fa-solid fa-list-check"></i></div>
+            <h3 class="process-step__title">Pilih Program</h3>
+            <p class="process-step__desc">Tim kami akan membantu memilih program yang paling sesuai dengan kebutuhan dan tujuan finansial Anda.</p>
+          </div>
+          <div class="process-step__arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          <div class="process-step" data-animate="fade-up" data-delay="300">
+            <div class="process-step__number">03</div>
+            <div class="process-step__icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3 class="process-step__title">Mulai Belajar</h3>
+            <p class="process-step__desc">Nikmati sesi edukasi, akses materi, dan bergabung dengan komunitas yang mendukung perjalanan finansial Anda.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONI ========== -->
+    <section id="testimoni" class="testimonials section">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <span class="badge badge--green">Cerita Peserta</span>
+          <h2 class="section-title">Apa Kata <span class="text-gold">Mereka?</span></h2>
+          <p class="section-subtitle">Dengarkan pengalaman nyata dari peserta yang telah meningkatkan literasi finansial mereka bersama kami.</p>
+        </div>
+        <div class="testimonials__grid">
+          <!-- Testimoni 1 -->
+          <article class="testi-card" data-animate="fade-up">
+            <div class="testi-card__stars">★★★★★</div>
+            <blockquote class="testi-card__quote">
+              "Sebelum ikut program ini, saya sama sekali tidak paham bagaimana cara mengatur pengeluaran bulanan. Sekarang saya jauh lebih memahami arus kas pribadi dan mulai bisa menyisihkan dana untuk kebutuhan jangka panjang. Materinya sangat mudah dicerna!"
+            </blockquote>
+            <footer class="testi-card__footer">
+              <div class="testi-card__avatar" aria-label="Avatar Rizky Pratama">R</div>
+              <div>
+                <div class="testi-card__name">Rizky Pratama</div>
+                <div class="testi-card__role">Karyawan Swasta, Jakarta</div>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Testimoni 2 -->
+          <article class="testi-card testi-card--featured" data-animate="fade-up" data-delay="150">
+            <div class="testi-card__stars">★★★★★</div>
+            <blockquote class="testi-card__quote">
+              "Dulu saya selalu ragu dan takut saat harus membuat keputusan finansial. Setelah mengikuti program Financial Planning di WealthGrow Academy, saya jadi lebih percaya diri dalam menyusun tujuan keuangan dan tidak lagi panik menghadapi kondisi keuangan yang berubah."
+            </blockquote>
+            <footer class="testi-card__footer">
+              <div class="testi-card__avatar testi-card__avatar--gold" aria-label="Avatar Sari Andini">S</div>
+              <div>
+                <div class="testi-card__name">Sari Andini</div>
+                <div class="testi-card__role">Pengusaha UMKM, Bandung</div>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Testimoni 3 -->
+          <article class="testi-card" data-animate="fade-up" data-delay="300">
+            <div class="testi-card__stars">★★★★★</div>
+            <blockquote class="testi-card__quote">
+              "Komunitas di WealthGrow Academy sangat suportif. Saya belajar bukan hanya dari materi, tetapi juga dari diskusi bersama sesama peserta. Sekarang saya punya rencana keuangan yang jauh lebih terstruktur dan tahu langkah apa yang harus diambil selanjutnya."
+            </blockquote>
+            <footer class="testi-card__footer">
+              <div class="testi-card__avatar" aria-label="Avatar Dimas Setiawan">D</div>
+              <div>
+                <div class="testi-card__name">Dimas Setiawan</div>
+                <div class="testi-card__role">Mahasiswa Pasca Sarjana, Yogyakarta</div>
+              </div>
+            </footer>
+          </article>
+        </div>
+        <p class="testimonials__disclaimer">
+          <i class="fa-solid fa-circle-info"></i>
+          Testimoni di atas merupakan pengalaman peningkatan literasi keuangan pribadi, bukan jaminan hasil finansial tertentu.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== FAQ ========== -->
+    <section id="faq" class="faq section section--alt">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <span class="badge badge--gold">FAQ</span>
+          <h2 class="section-title">Pertanyaan yang <span class="text-gold">Sering Diajukan</span></h2>
+          <p class="section-subtitle">Temukan jawaban atas pertanyaan umum seputar WealthGrow Academy.</p>
+        </div>
+        <div class="faq__list" data-animate="fade-up">
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              <span>Apakah program ini cocok untuk pemula?</span>
+              <i class="fa-solid fa-chevron-down faq-item__icon"></i>
+            </button>
+            <div class="faq-item__answer">
+              <p>Ya, sangat cocok! Seluruh program kami dirancang untuk dapat diikuti oleh siapa pun, termasuk mereka yang belum memiliki latar belakang keuangan sebelumnya. Kurikulum dimulai dari konsep paling dasar dan berkembang secara bertahap sesuai kemampuan peserta.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              <span>Apakah ada komunitas yang bisa saya ikuti?</span>
+              <i class="fa-solid fa-chevron-down faq-item__icon"></i>
+            </button>
+            <div class="faq-item__answer">
+              <p>Ya! Setiap peserta yang bergabung akan mendapatkan akses ke komunitas aktif kami. Di sana Anda bisa berdiskusi, berbagi pengalaman, bertanya kepada mentor, dan saling mendukung perjalanan finansial bersama peserta lainnya.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              <span>Apakah ada jaminan keuntungan finansial?</span>
+              <i class="fa-solid fa-chevron-down faq-item__icon"></i>
+            </button>
+            <div class="faq-item__answer">
+              <p>Tidak. WealthGrow Academy adalah platform edukasi, bukan layanan manajemen investasi. Kami tidak memberikan janji atau jaminan keuntungan finansial dalam bentuk apapun. Tujuan kami adalah meningkatkan literasi dan pemahaman Anda agar bisa membuat keputusan finansial yang lebih terencana dan bijak.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              <span>Bagaimana cara bergabung?</span>
+              <i class="fa-solid fa-chevron-down faq-item__icon"></i>
+            </button>
+            <div class="faq-item__answer">
+              <p>Cara bergabung sangat mudah! Klik tombol "Konsultasi via WhatsApp" mana saja di halaman ini, atau kunjungi bagian Kontak. Tim kami akan merespons dan memandu Anda melalui proses pendaftaran serta membantu memilih program yang paling sesuai.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              <span>Apakah program dilakukan secara online?</span>
+              <i class="fa-solid fa-chevron-down faq-item__icon"></i>
+            </button>
+            <div class="faq-item__answer">
+              <p>Ya, seluruh program WealthGrow Academy dilaksanakan secara online, sehingga Anda bisa mengaksesnya dari mana saja dan kapan saja sesuai jadwal yang fleksibel. Anda hanya membutuhkan koneksi internet dan semangat untuk belajar!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <!--
+      ============================================================
+      INFORMASI KONTAK — MUDAH DIEDIT
+      Untuk mengubah nomor WhatsApp, cukup ganti nilai di:
+        1. Konstanta WA_NUMBER di js/main.js
+        2. Teks tampilan di section ini (jika diperlukan)
+      Seluruh tombol WhatsApp di situs ini mengacu pada satu sumber.
+      ============================================================
+    -->
+    <section id="kontak" class="contact section">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <span class="badge badge--green">Hubungi Kami</span>
+          <h2 class="section-title">Informasi <span class="text-gold">Kontak</span></h2>
+          <p class="section-subtitle">Siap membantu perjalanan finansial Anda. Jangan ragu untuk menghubungi kami.</p>
+        </div>
+
+        <div class="contact__inner">
+          <!-- Contact Info Cards -->
+          <div class="contact__info" data-animate="fade-right">
+            <div class="contact-item">
+              <div class="contact-item__icon contact-item__icon--wa">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div>
+                <div class="contact-item__label">WhatsApp</div>
+                <!-- EDIT NOMOR WA DI SINI -->
+                <div class="contact-item__value">+62 812-3456-7890</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item__icon contact-item__icon--email">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <div class="contact-item__label">Email</div>
+                <!-- EDIT EMAIL DI SINI -->
+                <div class="contact-item__value">hello@wealthgrowacademy.com</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item__icon contact-item__icon--ig">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div>
+                <div class="contact-item__label">Instagram</div>
+                <!-- EDIT USERNAME IG DI SINI -->
+                <div class="contact-item__value">@wealthgrowacademy</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item__icon contact-item__icon--loc">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <div class="contact-item__label">Alamat</div>
+                <!-- EDIT ALAMAT DI SINI -->
+                <div class="contact-item__value">Jakarta, Indonesia</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item__icon contact-item__icon--clock">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div>
+                <div class="contact-item__label">Jam Operasional</div>
+                <!-- EDIT JAM OPERASIONAL DI SINI -->
+                <div class="contact-item__value">Senin–Jumat, 09.00–17.00 WIB</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA Card -->
+          <div class="contact__cta-card" data-animate="fade-left">
+            <div class="contact__cta-icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <h3 class="contact__cta-title">Mulai Konsultasi Gratis Sekarang</h3>
+            <p class="contact__cta-desc">
+              Tim kami siap menjawab pertanyaan Anda dan membantu menentukan program yang paling sesuai dengan kebutuhan finansial Anda.
+            </p>
+            <a href="#" class="btn btn--gold btn--lg btn--full whatsapp-btn" id="main-wa-btn">
+              <i class="fa-brands fa-whatsapp"></i> Hubungi via WhatsApp
+            </a>
+            <p class="contact__cta-note">
+              <i class="fa-solid fa-circle-check"></i>
+              Gratis, tanpa komitmen, dan tanpa syarat apapun.
+            </p>
+            <div class="contact__availability">
+              <span class="availability-dot"></span>
+              Tim sedang online
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <!-- Brand -->
+        <div class="footer__brand">
+          <a href="#beranda" class="logo logo--light" aria-label="WealthGrow Academy">
+            <span class="logo__icon"><i class="fa-solid fa-seedling"></i></span>
+            <span class="logo__text">WealthGrow <span class="logo__accent">Academy</span></span>
+          </a>
+          <p class="footer__tagline">Platform edukasi keuangan dan investasi untuk membangun literasi finansial yang lebih baik.</p>
+          <div class="footer__socials">
+            <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="social-btn social-btn--wa whatsapp-btn" aria-label="WhatsApp WealthGrow Academy">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="mailto:hello@wealthgrowacademy.com" class="social-btn social-btn--email" aria-label="Email WealthGrow Academy">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://instagram.com/wealthgrowacademy" target="_blank" rel="noopener" class="social-btn social-btn--ig" aria-label="Instagram WealthGrow Academy">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Links -->
+        <div class="footer__links">
+          <h4 class="footer__links-title">Navigasi</h4>
+          <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+
+        <!-- Program Links -->
+        <div class="footer__links">
+          <h4 class="footer__links-title">Program</h4>
+          <ul>
+            <li><a href="#program">Dasar Pengelolaan Keuangan</a></li>
+            <li><a href="#program">Dasar Investasi</a></li>
+            <li><a href="#program">Financial Planning</a></li>
+            <li><a href="#program">Mindset Finansial</a></li>
+            <li><a href="#program">Evaluasi Keuangan</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer__contact">
+          <h4 class="footer__links-title">Kontak</h4>
+          <ul class="footer__contact-list">
+            <li><i class="fa-brands fa-whatsapp"></i> +62 812-3456-7890</li>
+            <li><i class="fa-solid fa-envelope"></i> hello@wealthgrowacademy.com</li>
+            <li><i class="fa-brands fa-instagram"></i> @wealthgrowacademy</li>
+            <li><i class="fa-solid fa-location-dot"></i> Jakarta, Indonesia</li>
+            <li><i class="fa-solid fa-clock"></i> Senin–Jumat, 09.00–17.00 WIB</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__disclaimer">
+          WealthGrow Academy adalah platform edukasi keuangan. Seluruh konten bersifat informatif dan edukatif, bukan saran investasi atau jaminan keuntungan finansial.
+        </p>
+        <p class="footer__copy">
+          &copy; <span id="footer-year"></span> WealthGrow Academy. Semua hak dilindungi.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WA Button -->
+  <a href="#" class="floating-wa whatsapp-btn" aria-label="Hubungi via WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="floating-wa__tooltip">Chat WhatsApp</span>
+  </a>
+
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
