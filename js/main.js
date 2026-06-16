@@ -12,7 +12,7 @@
 //  ⚙️  KONFIGURASI KONTAK (EDIT DI SINI)
 // =====================================================
 const CONTACT = {
-  WA_NUMBER: '6281234567890',          // Nomor WhatsApp (tanpa + atau spasi)
+  WA_NUMBER: '621336307400',          // Nomor WhatsApp (tanpa + atau spasi)
   WA_DEFAULT_MSG: 'Halo%2C%20saya%20ingin%20konsultasi%20gratis%20dengan%20WealthGrow%20Academy',
   EMAIL: 'hello@wealthgrowacademy.com',
   INSTAGRAM: 'https://instagram.com/wealthgrowacademy',
